@@ -15,7 +15,8 @@ void delay(){
 	timer0Int();
 	while(!TF0){
 	}
-	//TR0 = 0;
+	TR0 = 0;
+	TF0 = 0;
 }
 void main(){
 	EA = 1;
